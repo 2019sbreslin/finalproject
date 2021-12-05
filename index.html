@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HandiCalculator</title>
+	<meta name="description" content="This is a super simple calculator to help figure out the handicap on an everyday golfer." />
+	<link rel="stylesheet" href="styles2.css">
+	<link rel="stylesheet" href="styles.css">
+	<script src="othor source here if needed "></script>
+	<script src="js/calculator.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+	<h1>HandiCalculator</h1>
+	<div class="intro">Need an easy way to figure out your golf handicap? Whether it's to qualify for a tournament or to brag to your friends, this golf handicap calculator is a very simple tool that can give you your results. To figure the lucky number out on your own, you need to know your <em>previous scores, </em><em>course rating, </em> and <em>course slope</em>. Still confused? Take a look at the instructions below! Furthermore, if you want some extra tips, click the link below for the best online instructors!</div>
+	<br>
+	<div class="instructor"><a href="https://golferlogic.com/online-golf-coaches/" >Online Instructors</a></div>
+	<div class="calculator">
+		<form>
+			<table>
+				<thead>
+					<tr>
+						<th></th>
+						<th>18 Hole Score:</th>
+						<th>Course Rating:</th>
+						<th>Course Slope:</th>
+					</tr>
+				</thead>
+				<tbody>
+											<tr>
+							<td><span>1</span></td>
+							<td><input type="text" name="round[1][score]" placeholder="100"></td>
+							<td><input type="text" name="round[1][rating]" placeholder="72.9"></td>
+							<td><input type="text" name="round[1][slope]" placeholder="128"></td>
+						</tr>
+											<tr>
+							<td><span>2</span></td>
+							<td><input type="text" name="round[2][score]" ></td>
+							<td><input type="text" name="round[2][rating]" ></td>
+							<td><input type="text" name="round[2][slope]" ></td>
+						</tr>
+											<tr>
+							<td><span>3</span></td>
+							<td><input type="text" name="round[3][score]" ></td>
+							<td><input type="text" name="round[3][rating]" ></td>
+							<td><input type="text" name="round[3][slope]" ></td>
+						</tr>
+											<tr>
+							<td><span>4</span></td>
+							<td><input type="text" name="round[4][score]" ></td>
+							<td><input type="text" name="round[4][rating]" ></td>
+							<td><input type="text" name="round[4][slope]" ></td>
+						</tr>
+											<tr>
+							<td><span>5</span></td>
+							<td><input type="text" name="round[5][score]" ></td>
+							<td><input type="text" name="round[5][rating]" ></td>
+							<td><input type="text" name="round[5][slope]" ></td>
+						</tr>
+									</tbody>
+			</table>
+		</form>
+		<div class="results">
+			<p class="title">Your Golf Handicap is:</p>
+			<p class="handicap"></p>
+		</div>
+	</div>
+
+	<div class="instructions">
+		<div class="column left">
+			<h2>How to use application...</h2>
+			<p>To use this helpful too, just enter up to five rounds of golf. We will only count the ones that are filled in. Your 18 hole score is what you put down on your score card and </p>
+			<p>the <strong>course rating</strong> is something every course has and is usually found on your scorecard or course's website.<strong>Lastly, the course slope</strong> is also something found on every card or website!</p>
+		</div>
+		<div class="column right">
+			<h2>Why is this tool so important?</h2>
+			<p>Trying to calculate your handicap is not something you can figure out using quick math in your head. There are actually USGA specific rules which determine exactly how a golfer is to calculate his or her USGA Handicap Index&reg;.</p>
+			<p> If you want to enter a prestiges event or tournament, you will be required to tell the officials your handicap so they know if you're qualified to play this tournament.</p>
+		</div>
+	</div>
+	<div class="copyright">Built by <a href="https://www.facebook.com/sarah.breslin.96/">Sarah Breslin</a></div>
+</div>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=201423589919391";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-27307991-6']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+
+</body>
+</html>

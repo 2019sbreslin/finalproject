@@ -1,0 +1,220 @@
+
+
+	::selection
+	{
+		background: #7c8f27;
+		color: #fff;
+		text-shadow: none;
+	}
+
+	html
+	{
+		background-color: #e1fde3;
+		background-image: url('image2.png');
+	}
+	
+
+
+	.container
+	{
+		width: 700px;
+		margin: 35px auto 0 auto;
+		position: relative;
+	}
+
+	h1
+	{
+		margin: 0 0 60px 0;
+		font-family:'MemphisLTStdLight', "Times New Roman", Times, serif;
+		color:#7baa45;
+		font-size:70px;
+		line-height: 100%;
+		text-align: center;
+		font-weight:normal;
+		text-shadow: -1px 1px 2px rgb(255, 255, 255),
+				  1px 1px 2px rgb(255, 255, 255),
+				  1px -1px 0 rgb(255, 255, 255),
+				  -1px -1px 0 rgb(255, 255, 255);
+	}
+	.intro
+	{
+		font-weight: bold;
+		font-family:Arial, Helvetica, sans-serif;
+		color:#7baa45;
+		text-shadow:#ffffff 0px 1px 1px;
+		font-size:20px;
+		text-align: center;
+		text-shadow: -1px 1px 2px rgb(255, 255, 255),
+				  1px 1px 2px rgb(255, 255, 255),
+				  1px -1px 0 rgb(255, 255, 255),
+				  -1px -1px 0 rgb(255, 255, 255);
+	}
+
+	.intro a,
+	.intro a:visited
+	{
+		color:#a59b6b;
+	}
+
+	.intro a:hover
+	{
+		color: #7c8f27;
+	}
+	.instructor
+	{
+		padding: 0 0 0 5px;
+		left: 50%;
+		top: 160px;
+		text-align: center;
+	}
+
+	.calculator
+	{
+		margin: 35px 0 0 0;
+		padding: 25px 30px;
+		border: #a59b6b dashed 2px;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.calculator form
+	{
+		width: 420px;
+		float: left;
+	}
+
+	.calculator form table tr th
+	{
+		padding: 0 0 3px 0;
+		color: #477041;
+		text-align: left;
+		font-size: 15px;
+		line-height: 110%;
+	}
+
+	.calculator form table tr td span
+	{
+		display: block;
+		width: 27px;
+		height: 26px;
+		padding: 1px 0 0 0;
+		color: white;
+		font-size: 15px;
+		line-height: 26px;
+		font-weight: bold;
+		text-align: center;
+		background: #cec59d;
+		border-radius: 25px;
+		margin: 0 5px 0 0;
+	}
+
+	.calculator form table tr td input
+	{
+		background: white;
+		border: #cec59d solid 1px;
+		border-radius: 25px;
+		width: 100px;
+		padding: 0 10px;
+		height: 25px;
+	}
+
+	.calculator .results
+	{
+		width: 216px;
+		float: left;
+	}
+
+	.calculator .results
+	{
+		padding: 40px 0 0 0;
+		display: none;
+	}
+
+	.calculator .results .title
+	{
+		margin: 0;
+		font-family:Arial, Helvetica, sans-serif;
+		color:#a59b6b;
+		font-size: 12px;
+		line-height: 100%;
+		font-weight: bold;
+		text-shadow:#ffffff 0px 1px 1px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.calculator .results .handicap
+	{
+		margin: 0;
+		font-family:'MemphisLTStdLight', "Times New Roman", Times, serif;
+		color: white;
+		font-size: 95px;
+		line-height: 100%;
+		text-align: center;
+		-webkit-text-stroke: 1px #F8F8F8;
+		text-shadow: 0px 2px 4px rgb(47, 141, 67);
+	}
+
+	.instructions
+	{
+		overflow: hidden;
+		font-family:'MemphisLTStdLight', "Times New Roman", Times, serif;
+		font-size: 17px;
+		line-height: 20px;
+		color: rgb(63, 145, 60);
+		-webkit-text-stroke: 1px #bdd8c0;
+		text-shadow: 0px 2px 4px rgb(31, 95, 36);
+	}
+
+	.instructions .column
+	{
+		float: left;
+	}
+
+	.instructions .column.left
+	{
+		width: 330px;
+		margin: 0 30px 0 0;
+	}
+
+	.instructions .column.right
+	{
+		width: 340px;
+	}
+
+	h2
+	{
+		margin: 40px 0 0 0;
+		font-family:'MemphisLTStdLight', "Times New Roman", Times, serif;
+		color:#7c8f27;
+		font-size:28px;
+		line-height: 100%;
+		font-weight:normal;
+	}
+
+	.instructions .column p
+	{
+		margin: 10px 0 0px 0;
+	}
+	.copyright
+	{
+		margin: 50px 0 30px 0;
+		padding: 10px 0;
+		text-align: center;
+		font-family:Arial, Helvetica, sans-serif;
+		color: #d37086;
+		font-size: 14px;
+		line-height: 100%;
+		font-weight: bold;
+		background: #e0dbc5;
+		border-radius: 4px;
+	}
+	.copyright a
+	{
+		color: #d37086;
+		text-decoration: underline;
+	}
+	.copyright a:hover
+	{
+		color: #d37086;
+	}
